@@ -1,6 +1,17 @@
 print("============================================")
 print("Welcome to Keleni's Bible Quizz!")
 print("============================================")
+#Welcome
+name =input ("What is your name: ")
+print("Welcome {}, Thank you for taking my Bible Quiz. " .format(name))
+
+#Introductions
+print("=============================================")
+print("Intructions")
+
+
+
+
 
 #question One
 while True:
