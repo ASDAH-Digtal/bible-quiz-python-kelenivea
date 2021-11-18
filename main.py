@@ -13,6 +13,10 @@ print("2. In each question you are required to pick on of the multichoice sugges
 print("3. If your answer isnt one of the options or you spelt the answer in correctly, \nthe question is repeated. Make sure your answer is one of the options given\n and correctly spelt. ")
 print("4. You are allowed to just type in the letter that has the answer that you \nbelieve is correct.")
 print(":)Now let us test your general Bible knowledege!!(:")
+
+
+
+
 #question One
 print("====================================================================================")
 while True:
@@ -33,6 +37,10 @@ while True:
     print("----------------------------------------")
 print("====================================================================================")
 
+
+
+
+
 #Question Two
 while True:
   question_one = input("How many years did the Israelites spend in the Wilderness in the OT? \n (a) 56 years \n (b) 100 years \n (c) 60 years \n (d) 40 years\n >>  ")
@@ -52,6 +60,9 @@ while True:
     print("----------------------------------------")
 print("====================================================================================")
 
+
+
+
 #Question Three
 while True:
   question_one = input("How old was the oldest person (Methuselah) in the Bible? \n (a) 150 years \n (b) 969 years \n (c) 500 years \n (d) 249 years\n >>  ")
@@ -70,6 +81,9 @@ while True:
     print("you did not choose any of the options")
     print("----------------------------------------")
 print("====================================================================================")
+
+
+
 
 #Question Four
 while True:
@@ -152,27 +166,9 @@ while True:
     print("----------------------------------------")
 print("====================================================================================")
 
-#Question Eight 
-while True:
-  question_one = input("Who was a Christian persecutor but became a Christian on the roads to Damascus?   \n (a) James \n (b) John \n (c) Paul \n (d) Bartholomew \n>>  ")
-  
-  correct_q1 = ["Paul", "c", "(c)",]
-  incorrect_q1 = ["Bartholomew", "(d)", "d", "James", "(a)", "a", "John", "(b)", "b"]
-
-  if question_one.lower() in correct_q1:
-    print (">>>>>>>>>>THAT IS CORRECT<<<<<<<<<<<<")
-    break
-  elif question_one.lower() in incorrect_q1:
-    print("***********THAT IS INCORRECT*************")
-    break
-  else: 
-    print("----------------------------------------")
-    print("you did not choose any of the options")
-    print("----------------------------------------")
-print("====================================================================================")
 
 
-#Question Nine
+#Question Eight
 while True:
   question_one = input("How many chapters in the longest book of the Bible?    \n (a) 150 \n (b) 89 \n (c) 105 \n (d) 76 \n>>  ")
   
@@ -192,7 +188,8 @@ print("=========================================================================
 
 
 
-#Question Ten
+#Question Nine
+print("Question 9")
 while True:
   question_one = input('"The Father, Son, and Holy Spirit". What is this called?    \n (a) Trinity \n (b) Cheribum \n (c) Ark of the Covenant \n (d) Alter  \n>>  ')
   
